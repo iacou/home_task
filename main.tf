@@ -185,5 +185,5 @@ resource "github_repository_webhook" "atlantis" {
 
 # --- Demo resource for PR testing ---
 resource "random_pet" "demo" {
-  length = 2
+  length = 3
 }
