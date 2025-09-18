@@ -39,22 +39,27 @@ variable "atlantis_chart_version" {
 
 variable "github_owner" {
   type = string
+  default = "placeholder"
 }
 
 variable "github_repo" {
   type = string
+  default = "placeholder"
 }
 
 variable "github_user" {
   type = string
+  default = "placeholder"
 }
 
 variable "github_token" {
   type      = string
   sensitive = true
+  default = "placeholder"
 }
 
 variable "github_webhook_secret" {
   type      = string
   sensitive = true
+  default = "placeholder"
 }
