@@ -182,8 +182,3 @@ resource "github_repository_webhook" "atlantis" {
   events     = ["pull_request", "issue_comment", "push"]
   depends_on = [data.kubernetes_service.atlantis]
 }
-
-# --- Demo resource for PR testing ---
-resource "random_pet" "demo" {
-  length = 3
-}
